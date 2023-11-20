@@ -1,5 +1,3 @@
-// <script src="https://cdn.jsdelivr.net/gh/peterhry/CircleType@2.3.1/dist/circletype.min.js"></script>
-// add the above script by js
 const script = document.createElement("script");
 script.src =
   "https://cdn.jsdelivr.net/gh/peterhry/CircleType/dist/circletype.min.js";
