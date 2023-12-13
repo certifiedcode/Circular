@@ -1,7 +1,7 @@
-const script = document.createElement("script");
-script.src =
+const _marqueeScript = document.createElement("script");
+_marqueeScript.src =
   "https://cdn.jsdelivr.net/gh/peterhry/CircleType/dist/circletype.min.js";
-document.head.appendChild(script);
+document.head.appendChild(_marqueeScript);
 
 window.addEventListener("message", (event) => {
   if (event.data.circularId) {
